@@ -7,7 +7,7 @@
 ### create container (interactive run)
 `docker run -it --name image-from-container ubuntu:14.04`
 
-### create image from container (hart to reproduce)
+### create image from container (hard to reproduce)
 `docker commit image-from-container myimage`
 
 ### cahge entrypoint
@@ -30,3 +30,11 @@ ENTRYPOINT ["bin/sh"]
 https://docs.docker.com/engine/reference/builder/
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+### layered fs
+![](2019-01-16-15-29-41.png)
+
+### mount file to container
+```
+docker run -it -rm -v $(pwd):/home ubuntu:14.04
+```
