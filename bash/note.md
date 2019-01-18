@@ -4,4 +4,9 @@
 $ for i in ./*.png; do rm -rf $i; done
 ```
 
-### next
+### Create symlink
+
+```
+ln -s /path/to/file /path/to/symlink
+ls -s TO FROM
+```
