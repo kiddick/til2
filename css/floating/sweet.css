@@ -1,0 +1,57 @@
+html {
+    background-color: slateblue;
+    /* padding: 0; */
+}
+
+html body>h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    background-color: transparent;
+    margin: 0;
+}
+
+.box {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 2em;
+    /* margin-bottom: 25px; */
+    height: 200px;
+    width: 200px;
+    /* float: left; */
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+}
+
+.tomato {
+    background-color: tomato;
+    float: left;
+    /* height: 220px; */
+    width: 50%
+}
+
+.purple {
+    background-color: purple;
+    float: right;
+    width: 50%;
+}
+
+.gold {
+    background-color: gold;
+    clear: both;
+    width: 100%;
+}
+
+.green {
+    background-color: lightseagreen;
+    /* float: left; */
+    /* clear: right; */
+    width: 100%;
+}
